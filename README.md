@@ -24,7 +24,7 @@ type Package struct {
 }
 
 func (p Package) isHeavy() bool {
-	return p.Mass > 20
+	return p.Mass >= 20
 }
 
 func (p Package) isBulky() bool {
